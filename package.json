@@ -24,6 +24,11 @@
     "ncss",
     "snippets"
   ],
+  "scripts": {
+    "v-patch": "npm version patch -m '🔖 Upgrade to %s'",
+    "v-minor": "npm version minor -m '🔖 Upgrade to %s'",
+    "v-major": "npm version major -m '🔖 Upgrade to %s'"
+  },
   "contributes": {
     "languages": [
       {
