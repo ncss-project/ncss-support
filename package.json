@@ -1,13 +1,28 @@
 {
   "name": "ncss-support",
-  "displayName": "ncss-support",
+  "displayName": "ncss support",
   "description": "ncss support.",
   "version": "0.0.1",
+  "publisher": "SatooRu65536",
+  "icon": "icons/icon.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SatooRu65536/ncss-support"
+  },
+  "bugs": {
+    "url": "https://github.com/SatooRu65536/ncss-support/issues"
+  },
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": [
     "Programming Languages"
+  ],
+  "keywords": [
+    "css",
+    "ncss",
+    "snippets"
   ],
   "contributes": {
     "languages": [{
