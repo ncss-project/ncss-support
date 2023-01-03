@@ -25,16 +25,25 @@
     "snippets"
   ],
   "contributes": {
-    "languages": [{
-      "id": "ncss",
-      "aliases": ["ncss", "ncss"],
-      "extensions": [""],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "ncss",
-      "scopeName": "source.ncss",
-      "path": "./syntaxes/ncss.json"
-    }]
+    "languages": [
+      {
+        "id": "ncss",
+        "aliases": [
+          "ncss"
+        ],
+        "icon": {
+          "light": "./icons/ncss-light.png",
+          "dark": "./icons/ncss-dark.png"
+        },
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ncss",
+        "scopeName": "source.ncss",
+        "path": "./syntaxes/ncss.json"
+      }
+    ]
   }
 }
