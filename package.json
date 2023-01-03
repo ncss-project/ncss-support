@@ -34,7 +34,7 @@
     "grammars": [{
       "language": "ncss",
       "scopeName": "source.ncss",
-      "path": "./syntaxes/ncss.tmLanguage.json"
+      "path": "./syntaxes/ncss.json"
     }]
   }
 }
